@@ -19,11 +19,11 @@ Your board must:
 
 ## Building and Running
 
-Build and flash Blinky as follows,
+Build and flash as follows,
 
 ```sh
 
-$> west build -p -b arduino_nano_33_ble samples/i2cdemo
+$> west build -p -b arduino_nano_33_ble .
 
 $> west flash --bossac=/home/$USER/.arduino15/packages/arduino/tools/bossac/1.9.1-arduino2/bossac
 
